@@ -827,6 +827,6 @@ async def on_message(message):
         await message.channel.send("$open account - Opens new account with starting balance of $500\n\n$balance - Check your current balance\n\n$leaderboard - Show leaderboard\n\n$create bet name: (name) type: (standard, coin flip, overwatch) pooled: (true, false) options: (option 1), (option 2), (option 3) etc.- Create a new bet\nWhen creating a bet you do not need to include name, type or options. You may include any of these fields, in any order. The default if you do not include a type the bet will be a standard bet. More info on standard options for bet types:\n\nStandard:\nName: standard bet\nOptions: Win, Lose\nPooled: true\n\nCoin flip\nName: coin flip\nOptions(cannot be changed): Heads, Tails\nPooled: False\n\nOverwatch:\nName: Overwatch\nOptions: win, lose\nPooled: true\n\n$current bet - View info on current bet\n\n$bet (amount) (option) - Place bet\n\n$close betting - Close betting\n\n$result (winning option) (bet id) - Choose winning option, make sure to include bet id, to view pending bets and find bet id use $pending bets\n\n$pending bets - view bets pending a result\n\n$loan (amount) - Take out a loan of up to $5000, 10% interest on loans\n\n$pay loan (amount) - Pay back your debt using account funds\n\n$declare bankruptcy - Reset account to $50 and remove all debt\n\n$gambling hotline - If you or someone you know is impacted by gambling, help is available.")
 
         
-    
+token = open("token.txt", 'r')
 
-client.run("MTIzODUwNzAxNzE0MDgzMDI2MQ.GfZiJo.LzYb9JMsvYnoKUqPKZaDWUdoGyO5wOAro4QWIQ")
+client.run(token)
