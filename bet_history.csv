@@ -1,0 +1,10 @@
+name,id,open,bets,options,pooled
+standard bet,8649,True,"{'better': ['miles5463'], 'amt': [500], 'option': ['win']}","['win', 'lose']",True
+standard bet,8109,True,"{'better': [], 'amt': [], 'option': []}","['win', 'lose']",True
+standard bet,851,True,"{'better': [], 'amt': [], 'option': []}","['win', 'lose']",True
+standard bet,6421,True,"{'better': ['miles5463'], 'amt': [50], 'option': ['win']}","['win', 'lose']",True
+6421,standard bet,bet,"['win', 'lose']","{'name': ['miles5463'], 'balance': [0]}"
+6421,standard bet,bet,"['win', 'lose']","{'name': ['miles5463'], 'balance': [0]}"
+6421,standard bet,bet,"['win', 'lose']","{'name': ['miles5463'], 'balance': [0]}"
+6421,standard bet,bet,"['win', 'lose']","{'name': ['miles5463'], 'balance': [0]}"
+8326,standard bet,bet,"['win', 'lose']","{'name': ['miles5463'], 'balance': [50]}"

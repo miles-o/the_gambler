@@ -1,0 +1,4 @@
+name,id,open,bets,options,pooled
+standard bet,1742,True,"{'better': [], 'amt': [], 'option': []}","['win', 'lose']",True
+standard bet,9648,True,"{'better': ['miles5463'], 'amt': [50], 'option': ['win']}","['win', 'lose']",True
+standard bet,2429,True,"{'better': ['miles5463'], 'amt': [50], 'option': ['win']}","['win', 'lose']",True
